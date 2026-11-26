@@ -11,6 +11,8 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{A simple Ruby natural language parser for elapsed time}
   gem.homepage      = "https://github.com/hpoydar/chronic_duration"
   gem.license       = "MIT"
+  gem.authors       = ["none"]
+  gem.email         = ["none@test.com"]
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
